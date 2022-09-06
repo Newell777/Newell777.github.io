@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    background-color: #100720 !important;
+}
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FA2FB5;
+}
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: #100720 !important;
+}
+input[type="email"],
+input[type="password"] {
+    background: #31087B;
+    color: #ffffff;
+    border: 2px solid #FA2FB5;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #FA2FB5;
+    color: #FFC23C;
+    margin: 0%;
+}
+.btn{
+background: #FA2FB5 !important;
+color: #100720 !important;
+transform:translateY(-1px);
+font-size: 14px;
+border-radius: 40x !important;
+}
